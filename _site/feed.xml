@@ -5,9 +5,157 @@
     <description>Starting to Jekyll.</description>
     <link>www.anton23.com/</link>
     <atom:link href="www.anton23.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 07 Jul 2014 07:56:50 -0700</pubDate>
-    <lastBuildDate>Mon, 07 Jul 2014 07:56:50 -0700</lastBuildDate>
+    <pubDate>Mon, 07 Jul 2014 10:43:02 -0700</pubDate>
+    <lastBuildDate>Mon, 07 Jul 2014 10:43:02 -0700</lastBuildDate>
     <generator>Jekyll v2.1.0</generator>
+    
+      <item>
+        <title>CSS Cross Country</title>
+        <description>&lt;h3 id=&quot;primary-dom-selectors&quot;&gt;Primary DOM Selectors&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Element Selector&lt;/li&gt;
+  &lt;li&gt;Class Selector&lt;/li&gt;
+  &lt;li&gt;ID Selector&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cascade-order-priority&quot;&gt;Cascade Order Priority&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Using &lt;code&gt;!important&lt;/code&gt; – (Highest Priority)&lt;/li&gt;
+  &lt;li&gt;Inline style attribute&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; definition&lt;/li&gt;
+  &lt;li&gt;External &lt;code&gt;&amp;lt;link&amp;gt;&lt;/code&gt; – (Lowest Priority)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;combinator-selectors&quot;&gt;Combinator Selectors&lt;/h3&gt;
+&lt;p&gt;Combinator – shows relationship&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Descendant Selector  – elements that are descendants 
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;div p { background-color: yellow; }&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Child Selector – elements that are immediate children
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;div &amp;gt; p { background-color: yellow; }&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Adjacent Sibling Selector – ‘p’ that are placed immediately after ‘div’ in 
+example below: 
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;div + p { background-color: yellow; }&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;General Sibling Selector – all ‘p’ that are siblings of ‘div’ in example below:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;div ~ p { background-color: yellow; }&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;clearing-floats-the-clearfix&quot;&gt;Clearing Floats: The Clearfix&lt;/h3&gt;
+&lt;p&gt;A clean technique to clear floats.  When used on the parent, the children will 
+be self-cleared.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:before&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:after&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:after&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;clear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;both&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;zoom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/* IE6&amp;amp;7 */&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;specificity&quot;&gt;Specificity&lt;/h3&gt;
+&lt;p&gt;Priority of a Selector follows this order: &lt;strong&gt;A, B, C, D, E&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A – any inline style? (Highest priority)&lt;/li&gt;
+  &lt;li&gt;B – # of ID Selectors&lt;/li&gt;
+  &lt;li&gt;C – # of Class Selectors&lt;/li&gt;
+  &lt;li&gt;D – # of Element Selectors &lt;/li&gt;
+  &lt;li&gt;E – any inherited style? (Lowest priority)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;collapsing-margins&quot;&gt;Collapsing Margins&lt;/h3&gt;
+&lt;p&gt;Happens when the margins of two block elements collapse to the larger one
+instead of adding the two. &lt;a href=&quot;http://www.w3.org/TR/CSS2/box.html#collapsing-margins&quot;&gt;Source.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/KXipDH8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Collapsing margins will not occur when one or more block element has:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;padding or border&lt;/li&gt;
+  &lt;li&gt;relative or absolute positioning&lt;/li&gt;
+  &lt;li&gt;a float left or right&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;image-use&quot;&gt;Image Use&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Always ask: Content or Layout?&lt;/li&gt;
+  &lt;li&gt;Resize images server-side when possible&lt;/li&gt;
+  &lt;li&gt;Use overflow hidden when necessary&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Rental&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Products&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/h4&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;&amp;lt;ul class=&amp;quot;rental&amp;quot;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;  &amp;lt;li class=&amp;quot;crop&amp;quot;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;  &amp;lt;img src=&amp;quot;snowboard.jpg&amp;quot; alt=&amp;quot;Snowboard&amp;quot; /&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;&amp;lt;/u&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;crop&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;overflow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;crop&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;logoimage-replacement&quot;&gt;Logo/Image Replacement&lt;/h3&gt;
+
+&lt;p&gt;Add descriptive text to image-replaced elements for best-practice especially
+on screen-readers.  Then, use &lt;code&gt;text-indent: -9999px&lt;/code&gt; in CSS to hide the 
+placeholder text.&lt;/p&gt;
+
+&lt;h3 id=&quot;sprites&quot;&gt;Sprites&lt;/h3&gt;
+
+&lt;p&gt;Use sprites when swapping backgroud images to prevent issues such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The need to preload an image&lt;/li&gt;
+  &lt;li&gt;Adding an extra HTTP request&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pseudo-classes&quot;&gt;Pseudo Classes&lt;/h3&gt;
+&lt;p&gt;Allow you to conditionally select an element based on state or position.  Below 
+are the most useful selectors:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;:hover / :focus / :active / :visited&lt;/li&gt;
+  &lt;li&gt;:first-child / :last-child / :only-child&lt;/li&gt;
+  &lt;li&gt;:nth-child(odd/even/an+b) / :nth-of-type()  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pseudo-element&quot;&gt;Pseudo Element&lt;/h3&gt;
+&lt;p&gt;Allows you to modify an element’s content for styling.  Below are the most 
+utilized pseudo elements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;:before / :after – needs &lt;code&gt;content&lt;/code&gt; property to be used.&lt;/li&gt;
+  &lt;li&gt;:first-letter / :first-line  – doesn’t need &lt;code&gt;content&lt;/code&gt; property to be used.
+￼&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 07 Jul 2014 07:42:59 -0700</pubDate>
+        <link>www.anton23.com/skills/2014/07/07/css-cross-country/</link>
+        <guid isPermaLink="true">www.anton23.com/skills/2014/07/07/css-cross-country/</guid>
+        
+        
+        <category>skills</category>
+        
+      </item>
     
       <item>
         <title>Front-end Formations</title>
@@ -474,45 +622,6 @@ tell anyone, “You’re wrong.”&lt;/strong&gt;  This is the sure fire way to 
         <pubDate>Thu, 30 Jan 2014 06:43:59 -0800</pubDate>
         <link>www.anton23.com/interact/2014/01/30/win-people/</link>
         <guid isPermaLink="true">www.anton23.com/interact/2014/01/30/win-people/</guid>
-        
-        
-        <category>interact</category>
-        
-      </item>
-    
-      <item>
-        <title>Ways to Make People Like You</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/4XZxFdh.png&quot; alt=&quot;drawing-small&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In Dale Carnegie’s &lt;em&gt;“How to Win Friends and Influence People,”&lt;/em&gt; Carnegie provided 3 principles on ways to make people like you.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1. Become genuinely interested in other people.&lt;/strong&gt;  &lt;em&gt;“Do this and you’ll be welcomed anywhere.”&lt;/em&gt;  &lt;/p&gt;
-
-&lt;p&gt;When dealing with others, be interested in them as a dog would be interested in you.  Greet people with animation and enthusiasm like &lt;em&gt;Kareem&lt;/em&gt;  would.  You can make more friends in 2 months by becoming interested in other people than in 2 years by trying to get other people interested in you.  People are not interested in you. They are not interested in me. They are interested in themselves - morning, noon and after dinner (and there is nothing wrong with that; it’s human nature).&lt;/p&gt;
-
-&lt;p&gt;If we merely try to impress people and get people interested in us, we will never have many true, sincere friends. Friends, real friends, are not made that way.  Alfred Adler, the famous Viennese psychologist, wrote in his book: &lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;It is the individual who is not interested in his fellow men who has the greatest difficulties in life and provides the greatest injury to others. It is from among such individuals that all human failures spring.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;And be grateful.  A magician once said, “I am grateful because these people come to see me, They make it possible for me to make my living in a very agreeable way. I’m going to give them the very best I possibly can.”  A show of interest, as with every other principle of human relations, must be sincere.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. Smile.&lt;/strong&gt; &lt;em&gt;“A simple way to make a good first impression.”&lt;/em&gt;  A warm genuine smile signals that you’re grateful for their attention and presence.&lt;/p&gt;
-
-&lt;p&gt;Though, I do feel there’s a boundary between a warm genuine smile and too much smile.  Try smirking if unsure of this boundary (usually more suited for guys).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. Remember that a person’s name is to that person the sweetest and most important sound in any language.&lt;/strong&gt;  Damn right it is.  &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4. Be a good listener.  Encourage others to talk about themselves.&lt;/strong&gt;  This is &lt;em&gt;“the easiest way to become a good conversationalist”&lt;/em&gt;.  Knowing to keep mum also helps you to prevent from kicking the beehive.  The lesson here is that a person’s toothache means more to that person than a famine in China.  &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5. Talk in terms of the other person’s interest.&lt;/strong&gt; How to interest people?  You must know how to talk in their interest – this in turn will enthuse them.  In addition, it’s like foreplay in sex or dynamic-stretching in weightlifting, you need to warm up first to achieve fun/great results.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;6. Make the other person feel important – and do it sincerely.&lt;/strong&gt;  This is probably the weakest principle in this list.  I believe that once you start listening to the other person, are interested in him, and call him by his name, you have then made him feel important in a sincere manner.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 29 Jan 2014 06:43:59 -0800</pubDate>
-        <link>www.anton23.com/interact/2014/01/29/ways-to-make-people-like-you/</link>
-        <guid isPermaLink="true">www.anton23.com/interact/2014/01/29/ways-to-make-people-like-you/</guid>
         
         
         <category>interact</category>
