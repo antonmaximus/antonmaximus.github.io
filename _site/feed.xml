@@ -5,9 +5,101 @@
     <description>Starting to Jekyll.</description>
     <link>www.anton23.com/</link>
     <atom:link href="www.anton23.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 05 Jul 2014 16:53:53 -0700</pubDate>
-    <lastBuildDate>Sat, 05 Jul 2014 16:53:53 -0700</lastBuildDate>
+    <pubDate>Sun, 06 Jul 2014 18:05:16 -0700</pubDate>
+    <lastBuildDate>Sun, 06 Jul 2014 18:05:16 -0700</lastBuildDate>
     <generator>Jekyll v2.1.0</generator>
+    
+      <item>
+        <title>New in HTML5</title>
+        <description>&lt;h3 id=&quot;new-html5-elements&quot;&gt;New HTML5 elements…&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; – Acts like a ‘div’.  However, a ‘div’ has no semantic meaning, 
+but the ‘section’ element does.  It’s used for grouping together thematically 
+related content and for showing document outline.  As Jeremey Keith 
+mentioned, &lt;em&gt;“ask yourself: is all of the content related?”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;header&amp;gt;&lt;/code&gt; – A group of introductory content or navigational aids or both.&lt;br /&gt;
+It should describe the content it is contained within.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;footer&amp;gt;&lt;/code&gt; – Similar to ‘header’.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;aside&amp;gt;&lt;/code&gt; – Tangentially related to the content surrounding it (i.e., it is 
+indirectly related to the content).  However, it’s been utilized as a 
+sidebar for sites too.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;nav&amp;gt;&lt;/code&gt; – Intended for major navigation.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;article&amp;gt;&lt;/code&gt; – It represents a self-contained composition that is independently
+distributable.  It’s similar to a ‘section’, but the question to ask is: &lt;em&gt;would 
+you syndicate this in an RSS feed?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;main&amp;gt;&lt;/code&gt; – It consists of content that is directly to or expands upon the 
+central topic of the document.  Two pracitices: 1. Do not include more than one 
+‘main’ in a document, and 2. Do not make it a child of ‘article’, ‘aside’, 
+‘footer’, ‘header’, or ‘nav’.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;figure&amp;gt;&lt;/code&gt; &amp;amp; &lt;code&gt;&amp;lt;figcaption&amp;gt;&lt;/code&gt; – A ‘figure’ element is self-contained and that
+can be moved away from the main flow of the document without affecting the 
+document’s meaning.  A ‘figcaption’ is used as supplemental information for the 
+‘figure’.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;time&amp;gt;&lt;/code&gt; – It’s used for time representation. duh.&lt;/p&gt;
+
+&lt;h3 id=&quot;new-html5-input-types&quot;&gt;New HTML5 input types…&lt;/h3&gt;
+
+&lt;p&gt;Using the correct type provides users added usability on mobile browsers.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Search – This also adds an extra UI benefit of a clear icon.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Email&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;URL&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tel&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Number&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Range – provides a slider input.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Date – provides a date picker.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Month&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Week&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Time&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Datetime&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Datetime-local – just like Datetime but with no time zone associated with it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Color – provides color picker.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 05 Jul 2014 07:43:59 -0700</pubDate>
+        <link>www.anton23.com/skills/2014/07/05/html5-foundations/</link>
+        <guid isPermaLink="true">www.anton23.com/skills/2014/07/05/html5-foundations/</guid>
+        
+        
+        <category>skills</category>
+        
+      </item>
     
       <item>
         <title>Learning to Jekyll!</title>
@@ -407,28 +499,6 @@ tell anyone, “You’re wrong.”&lt;/strong&gt;  This is the sure fire way to 
         <pubDate>Wed, 29 Jan 2014 06:43:59 -0800</pubDate>
         <link>www.anton23.com/interact/2014/01/29/ways-to-make-people-like-you/</link>
         <guid isPermaLink="true">www.anton23.com/interact/2014/01/29/ways-to-make-people-like-you/</guid>
-        
-        
-        <category>interact</category>
-        
-      </item>
-    
-      <item>
-        <title>Principle 3: Make Them See the Fire!</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/X88bB9P.png&quot; alt=&quot;drawing-small&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The best way to make a person do something for you is by arousing in them the desire/fire to accomplish it for themselves.  Sure, placing fire under one’s ass would get the other person moving too, but that person would only work until his skin is at a good distance from the flame. &lt;/p&gt;
-
-&lt;p&gt;We always think about ourselves.  When we look at a a group photo, the first face we look at is ourselves [p62].  When we talk in a conversation, the part we enjoy the most is when we talk about ourselves.  So when influencing the other person, Why talk about what we want? That is childish. Of course, you are interested in what you want. You are eternally interested in it. But no one else is. The rest of us are just like you: we are interested in what we want.
-So the only way on earth to influence other people is to talk about what they want and show them how to get it.&lt;/p&gt;
-
-&lt;p&gt;The most effective way to deal with people is – an increased tendency to think always in terms of other people’s point of view, and see things from their angle. Looking at the other person’s point of view and arousing in him an eager want for something is not to be construed as manipulating that person so that he will do something that is only for your benefit and his detriment. Each party should gain from the negotiation.&lt;/p&gt;
-
-&lt;p&gt;“First, arouse in the other person an eager want He who can do this has the whole world with him. He who cannot walks a lonely way.”&lt;/p&gt;
-</description>
-        <pubDate>Tue, 28 Jan 2014 06:43:59 -0800</pubDate>
-        <link>www.anton23.com/interact/2014/01/28/see-the-fire/</link>
-        <guid isPermaLink="true">www.anton23.com/interact/2014/01/28/see-the-fire/</guid>
         
         
         <category>interact</category>
