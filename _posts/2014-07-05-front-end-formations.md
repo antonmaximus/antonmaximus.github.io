@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "New in HTML5"
-date:   2014-07-05 14:43:59
+title:  "Front-end Formations"
+date:   2014-07-05 14:42:59
 categories: skills
 ---
 
@@ -74,3 +74,19 @@ Using the correct type provides users added usability on mobile browsers.
 * Color -- provides color picker.
 
 
+### Font Face
+Ability to provide online fonts for use on websites.
+
+
+{% highlight ruby %}
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url('OpenSansRegular-webfont.eot');
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: 'OpenSansRegular', Arial, sans-serif;
+}
+{% endhighlight %}

@@ -5,12 +5,12 @@
     <description>Starting to Jekyll.</description>
     <link>www.anton23.com/</link>
     <atom:link href="www.anton23.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 06 Jul 2014 18:05:16 -0700</pubDate>
-    <lastBuildDate>Sun, 06 Jul 2014 18:05:16 -0700</lastBuildDate>
+    <pubDate>Mon, 07 Jul 2014 07:56:50 -0700</pubDate>
+    <lastBuildDate>Mon, 07 Jul 2014 07:56:50 -0700</lastBuildDate>
     <generator>Jekyll v2.1.0</generator>
     
       <item>
-        <title>New in HTML5</title>
+        <title>Front-end Formations</title>
         <description>&lt;h3 id=&quot;new-html5-elements&quot;&gt;New HTML5 elements…&lt;/h3&gt;
 
 &lt;p&gt;&lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; – Acts like a ‘div’.  However, a ‘div’ has no semantic meaning, 
@@ -91,10 +91,24 @@ document’s meaning.  A ‘figcaption’ is used as supplemental information fo
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&quot;font-face&quot;&gt;Font Face&lt;/h3&gt;
+&lt;p&gt;Ability to provide online fonts for use on websites.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;vi&quot;&gt;@font&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;face&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;font&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;OpenSansRegular&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;OpenSansRegular-webfont.eot&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;font&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;font&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;weight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;font&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;OpenSansRegular&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Arial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sans&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 </description>
-        <pubDate>Sat, 05 Jul 2014 07:43:59 -0700</pubDate>
-        <link>www.anton23.com/skills/2014/07/05/html5-foundations/</link>
-        <guid isPermaLink="true">www.anton23.com/skills/2014/07/05/html5-foundations/</guid>
+        <pubDate>Sat, 05 Jul 2014 07:42:59 -0700</pubDate>
+        <link>www.anton23.com/skills/2014/07/05/front-end-formations/</link>
+        <guid isPermaLink="true">www.anton23.com/skills/2014/07/05/front-end-formations/</guid>
         
         
         <category>skills</category>
@@ -123,6 +137,36 @@ I guess it also helped that I’ve used Github in the past and have tinkered wit
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Investing... Here we go again.</title>
+        <description>&lt;p&gt;I’ve looked into investing pretty heavily about 5 years ago.  I wish I made notes of the terms that ought to be remembered and the approach I followed.  Oh well, it’s not too late to refresh my memory and make notes.  So here goes…&lt;/p&gt;
+
+&lt;p&gt;It’s 2014.  The approach I’ll be using is making my portfolio.  &lt;/p&gt;
+
+&lt;p&gt;First off, reading…&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;I Will Teach You To Be Rich – as far as investing is concerned, you cannot beat the market and you’re better off investing in index funds because of the low fees.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Boglehead’s Guide to Investing&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A Random Walk Down Wall Street&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Tue, 01 Jul 2014 07:43:59 -0700</pubDate>
+        <link>www.anton23.com/investing/2014/07/01/investing-again/</link>
+        <guid isPermaLink="true">www.anton23.com/investing/2014/07/01/investing-again/</guid>
+        
+        
+        <category>investing</category>
         
       </item>
     
@@ -239,36 +283,6 @@ When I tuned out of the world, I decided to stop following all the recommended r
         
         
         <category>exercise</category>
-        
-      </item>
-    
-      <item>
-        <title>Investing... Here we go again.</title>
-        <description>&lt;p&gt;I’ve looked into investing pretty heavily about 5 years ago.  I wish I made notes of the terms that ought to be remembered and the approach I followed.  Oh well, it’s not too late to refresh my memory and make notes.  So here goes…&lt;/p&gt;
-
-&lt;p&gt;It’s 2014.  The approach I’ll be using is making my portfolio.  &lt;/p&gt;
-
-&lt;p&gt;First off, reading…&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;I Will Teach You To Be Rich – as far as investing is concerned, you cannot beat the market and you’re better off investing in index funds because of the low fees.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Boglehead’s Guide to Investing&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A Random Walk Down Wall Street&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-</description>
-        <pubDate>Sun, 01 Jun 2014 07:43:59 -0700</pubDate>
-        <link>www.anton23.com/investing/2014/06/01/investing-again/</link>
-        <guid isPermaLink="true">www.anton23.com/investing/2014/06/01/investing-again/</guid>
-        
-        
-        <category>investing</category>
         
       </item>
     

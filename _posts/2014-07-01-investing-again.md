@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Investing... Here we go again."
-date:   2014-06-01 14:43:59
+date:   2014-07-01 14:43:59
 categories: investing
 ---
 
