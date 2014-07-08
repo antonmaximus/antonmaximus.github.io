@@ -90,12 +90,14 @@ The first 2  months of documenting was not really inspiring as I wasn't seeing m
 **Changing the exercise because of injury.**  Condensing the exercises into two days was not really necessary, and the three-day split I had was fine as it was.  The main change-up was in my style of Squats and Chest Presses because of injury. (The *whatever exercise* is now called *accessory exercise*.)
 
 Lower-body Day:
+
 1. **Squat (Highbar).** 3 sets. Max reps of 8.
 2. **Deadlifts.** 3 sets. Max reps of 5.
 3. *One Accessory Exercise.* 2 sets. Max reps of 13.
 4. *One Ab Exercise (Dragon Flags).* 2 sets. Max reps of 13.
 
 Upper-body Day:
+
 1. **Pull-up/Chin-up Medley**. 3 sets (6 total). Max reps of 13.
 2. **Shoulder Presses  (Barbell, Standing).** 3 sets. Max reps of 8.
 3. **Chest Presses (Single-arm Dumbbell, Flat bench).** 3 sets. Maxrep 10.
