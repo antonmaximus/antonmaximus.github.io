@@ -1,7 +1,7 @@
 # Site settings
 title: anton
-email: your-email@domain.com
-description: "Starting to Jekyll."
+#email: your-email@domain.com
+description: "A small growth today makes things happen..."
 baseurl: ""
 url: "www.anton23.com"
 twitter_username: antonmaximus

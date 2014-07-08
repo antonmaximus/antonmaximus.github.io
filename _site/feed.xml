@@ -2,12 +2,105 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>anton</title>
-    <description>Starting to Jekyll.</description>
+    <description>A small growth today makes things happen...</description>
     <link>www.anton23.com/</link>
     <atom:link href="www.anton23.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 07 Jul 2014 10:43:02 -0700</pubDate>
-    <lastBuildDate>Mon, 07 Jul 2014 10:43:02 -0700</lastBuildDate>
+    <pubDate>Tue, 08 Jul 2014 09:34:37 -0700</pubDate>
+    <lastBuildDate>Tue, 08 Jul 2014 09:34:37 -0700</lastBuildDate>
     <generator>Jekyll v2.1.0</generator>
+    
+      <item>
+        <title>Mobile Journey</title>
+        <description>&lt;h3 id=&quot;fluid-layouts&quot;&gt;Fluid Layouts&lt;/h3&gt;
+&lt;p&gt;Fluid layouts are layouts that scale.  What makes a fluid site?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fluid Grid&lt;/li&gt;
+  &lt;li&gt;Using relative values (i.e., percentages for widths)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;adaptive-design&quot;&gt;Adaptive Design&lt;/h3&gt;
+&lt;p&gt;Design for controlled adaptation where context and/or device is known and
+you design accordingly.&lt;/p&gt;
+
+&lt;p&gt;Four Design Principles&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Who is your user?&lt;/li&gt;
+  &lt;li&gt;How will they use the site?&lt;/li&gt;
+  &lt;li&gt;Context – i.e. what device?&lt;/li&gt;
+  &lt;li&gt;Content – how will it adapt based on the context?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;mobile-first-approach&quot;&gt;Mobile First Approach&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;”…prepares you for the explosive growth and new opportunities on the mobile 
+internet, forces you to focus, and enables you to innovate in ways you 
+previously couldn’t”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;~&lt;em&gt;Luke Wroblewski&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Mobile First Approach forces you to focus on the most important things (because
+of how much real estate one has):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Simplifying content&lt;/li&gt;
+  &lt;li&gt;Prioritizing layout&lt;/li&gt;
+  &lt;li&gt;Optimizing user experience&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;responsive-design&quot;&gt;Responsive Design&lt;/h3&gt;
+&lt;p&gt;In responsive design, the content defines breakpoints.  We provide continuity 
+between a variety of different context (e.g., screen size).&lt;/p&gt;
+
+&lt;h3 id=&quot;media-queries&quot;&gt;Media Queries&lt;/h3&gt;
+&lt;p&gt;Best practice is to place them at the bottom of stylesheet&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;/*-----------------&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;Media Queries&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;------------------*/&lt;/span&gt;
+&lt;span class=&quot;vi&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;screen&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;320&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;font&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;responsive-media&quot;&gt;Responsive Media&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;img, embed, object, video { max-width: 100%; }&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;retina-images&quot;&gt;Retina Images&lt;/h3&gt;
+&lt;p&gt;Retina images have 1.5x - 2x the pixel density. (Most iPhones have pixel density
+of 2, while some Android devices have 1.5).  Use media queries to target
+devices that have retina displays and optimize images.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;vi&quot;&gt;@media&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;only&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;screen&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;webkit&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;device&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pixel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;ratio&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;only&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;screen&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;device&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pixel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;ratio&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;logo&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;logo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;png&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;webkit&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;px&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;px&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;iOS’s naming convention for retina-images is &lt;code&gt;logo@2x.png&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;be explicit with the &lt;code&gt;size&lt;/code&gt; because browsers will serve images in their 
+original size&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;relative-font-sizing&quot;&gt;Relative Font-sizing&lt;/h3&gt;
+&lt;p&gt;Formula is &lt;code&gt;target/context = result&lt;/code&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 08 Jul 2014 07:42:59 -0700</pubDate>
+        <link>www.anton23.com/skills/2014/07/08/mobile-journey/</link>
+        <guid isPermaLink="true">www.anton23.com/skills/2014/07/08/mobile-journey/</guid>
+        
+        
+        <category>skills</category>
+        
+      </item>
     
       <item>
         <title>CSS Cross Country</title>
@@ -571,57 +664,6 @@ When I tuned out of the world, I decided to stop following all the recommended r
         <pubDate>Fri, 31 Jan 2014 06:43:59 -0800</pubDate>
         <link>www.anton23.com/interact/2014/01/31/be-a-leader/</link>
         <guid isPermaLink="true">www.anton23.com/interact/2014/01/31/be-a-leader/</guid>
-        
-        
-        <category>interact</category>
-        
-      </item>
-    
-      <item>
-        <title>How to Win People to Your Way of Thinking</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/FfUJnSl.jpg&quot; alt=&quot;drawing-small&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In Dale Carnegie’s &lt;em&gt;“How to Win Friends and Influence People,”&lt;/em&gt; he noted ways on influencing people. To me these points can be summarized into: creating a friendly atmosphere, nourishing the other person’s self-esteem, and instilling fire.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1. The only way to get the best of an argument is to avoid it.&lt;/strong&gt;  Case in point: &lt;em&gt;“You can’t win an argument.”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. Show respect for the other person’s opinions. Never 
-tell anyone, “You’re wrong.”&lt;/strong&gt;  This is the sure fire way to avoid making enemies out of people.   It’s also the reason why you cannot change someone’s mind about their religion because it’s an attack to their self-esteem.&lt;/p&gt;
-
-&lt;p&gt;Trying to enlighten someone? There’s magic, positive magic, in such phrases as: “I may be wrong. I frequently am. Let’s examine the facts.”  This increases the probability in your favor.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&quot;I made it a rule,&quot; said Franklin, &quot;to forbear all direct contradiction to  the sentiment of others, and all positive assertion of my own, I even forbade myself the use of every word or expression in the language that imported a fix&#39;d opinion, such as &#39;certainly,&#39; &#39;undoubtedly,&#39; etc., and I adopted, instead of them, &#39;I conceive,&#39; &#39;I apprehend, &#39; or &#39;I imagine&#39; a thing to be so or so, or &#39;it so appears to me at present.&#39; When another asserted something that I thought an error, I deny&#39;d myself the pleasure of contradicting him abruptly...
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;3. If you’re wrong, admit it quickly and emphatically.”&lt;/strong&gt; Remember the old proverb: &lt;em&gt;“By fighting you never get enough, but by yielding you get more than you expected.”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4. Add a drop of honey.&lt;/strong&gt; Be friendly.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5. Get the other person saying “yes, yes” immediately.&lt;/strong&gt; The secret of Socrates.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;6. Let the other person do a great deal of the talking.&lt;/strong&gt;  This approach handles complaints.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;7. Let the other person feel that the idea is his or hers.&lt;/strong&gt; Or as I’d like to say it: Make the other person feel involved – which raises his importance.  This will get their cooperation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;8. Try honestly to see things from the other person’s point of view.&lt;/strong&gt; It does wonders.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;9. Be Sympathetic with the other person’s ideas and desires.&lt;/strong&gt;  It’s what every person wants.  And this rule is similar to seeing the other person’s point of view.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;10. Appeal to the nobler motives.&lt;/strong&gt;  An appeal that everybody likes.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;11.  Dramatize your ideas.&lt;/strong&gt;  Facts are not enough; dramatization matters.  Art &amp;amp; Movies do it so should you.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;12. Throw down a challenge.&lt;/strong&gt;  When nothing else works, throwing a challenge is the last resort.  The desire to excel is the fire that motivates everyone.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;“The way to get things done,”&lt;/em&gt; say Schwab, &lt;em&gt;“is to stimulate competition. I do not mean in a sordid, money-getting way, but in the desire to excel.”&lt;/em&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;That is what every successful person loves: the game. The chance for self-expression. The chance to prove his or her worth, to excel, to win. That is what makes foot races and hog-calling and pie-eating contests. The desire to excel. The desire for a feeling of importance.
-&lt;/code&gt;&lt;/pre&gt;
-
-</description>
-        <pubDate>Thu, 30 Jan 2014 06:43:59 -0800</pubDate>
-        <link>www.anton23.com/interact/2014/01/30/win-people/</link>
-        <guid isPermaLink="true">www.anton23.com/interact/2014/01/30/win-people/</guid>
         
         
         <category>interact</category>
